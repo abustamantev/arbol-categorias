@@ -23,13 +23,13 @@
 - 0, 400
 
 ### Dominio 1: Tecnología
-- 1, 3, 4, 5, 6, 15, 25, 29, 30, 36, 40, 48, 63, 66, 73, 74, 78, 90, 91, 92, 93, 95, 96, 97, 100
+- 1, 3, 4, 5, 6, **15** (Canonical), **25** (Canonical), 29, 30, **36** (Canonical), 40, **48** (Canonical), 63, **66** (Canonical), **73** (Canonical), **74** (Canonical), 78, 90, **91** (Canonical), 92, **93** (Canonical), **95** (Canonical), 96, **97** (Canonical), **100** (Canonical)
 
 ### Dominio 2: Electrodomésticos
-- 10, 13, 18, 24, 26, 57, 58, 61, 65, 75, 77, 79
+- **10** (Canonical), **13** (Canonical), **18** (Canonical), **24** (Canonical), **26** (Canonical), **57** (Canonical), **58** (Canonical), 61, **65** (Canonical), **75** (Canonical), **77** (Canonical), **79** (Canonical)
 
 ### Dominio 3: Hogar
-- 9, 12, 22, 28, 47, 50, 51, 64, 68, 69, 70, 82, 112
+- 9, 12, **22** (Canonical), **28** (Canonical), 47, 50, 51, 64, 68, 69, 70, 82, 112
 
 ### Dominio 4: Moda y Accesorios
 - 2, 19, 20, 76, 83, 84, 102
