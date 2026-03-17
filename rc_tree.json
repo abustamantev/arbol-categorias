@@ -1,201 +1,642 @@
 {
-  "domains": [
-    {
-      "id": 0,
+  "dominios": {
+    "0": {
       "nombre": "Excluidos",
-      "categorias": [
-        {"id": 0, "nombre": "Categoría Excluida 0", "canonica": false},
-        {"id": 400, "nombre": "Categoría Excluida 400", "canonica": false}
-      ]
+      "categorias": {
+        "0": {
+          "nombre": "Categoria Indeterminada",
+          "canonica": false
+        },
+        "400": {
+          "nombre": "Error de Parseo",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 1,
+    "1": {
       "nombre": "Tecnología",
-      "categorias": [
-        {"id": 1, "nombre": "Componentes de PC (Tarjetas de video, RAM, Discos Duros/SSD)", "canonica": false},
-        {"id": 3, "nombre": "Accesorios para Celulares (Carcasas, Cargadores, Baterías externas)", "canonica": false},
-        {"id": 4, "nombre": "Accesorios para Cámaras (Lentes, Baterías, Bolsos, Trípodes)", "canonica": false},
-        {"id": 5, "nombre": "Accesorios para Gaming (Controles, Audífonos, Sillas Gamer)", "canonica": false},
-        {"id": 6, "nombre": "Accesorios para Notebooks (Cargadores, Coolers, Fundas)", "canonica": false},
-        {"id": 15, "nombre": "Consolas de Videojuegos", "canonica": true},
-        {"id": 25, "nombre": "Media Streaming (Chromecast, Apple TV, Roku)", "canonica": true},
-        {"id": 29, "nombre": "Parlantes y Soundbars", "canonica": false},
-        {"id": 30, "nombre": "Pequeños Electrodomésticos de Cocina (Freidoras, Licuadoras, Cafeteras)", "canonica": false},
-        {"id": 36, "nombre": "Smartwatches y Smartbands", "canonica": true},
-        {"id": 40, "nombre": "Impresoras y Scanners", "canonica": false},
-        {"id": 48, "nombre": "Smart Home (Asistentes de Voz, Iluminación Inteligente)", "canonica": true},
-        {"id": 63, "nombre": "Cámaras y Videocámaras", "canonica": false},
-        {"id": 66, "nombre": "Drones", "canonica": true},
-        {"id": 73, "nombre": "Desktops y All-in-One", "canonica": true},
-        {"id": 74, "nombre": "Monitores", "canonica": true},
-        {"id": 78, "nombre": "Audífonos", "canonica": false},
-        {"id": 90, "nombre": "Celulares y Smartphones", "canonica": false},
-        {"id": 91, "nombre": "Tablets", "canonica": true},
-        {"id": 92, "nombre": "E-readers", "canonica": false},
-        {"id": 93, "nombre": "Notebooks", "canonica": true},
-        {"id": 95, "nombre": "Realidad Virtual (VR)", "canonica": true},
-        {"id": 96, "nombre": "Instrumentos Musicales", "canonica": false},
-        {"id": 97, "nombre": "Sistemas de Audio y Home Theater", "canonica": true},
-        {"id": 100, "nombre": "Seguridad y Vigilancia Inteligente (Cámaras, Sensores)", "canonica": true}
-      ]
+      "categorias": {
+        "1": {
+          "nombre": "Accesorios de Computación (Mouses, Teclados, Webcams)",
+          "canonica": false
+        },
+        "2": {
+          "nombre": "Accesorios para Celulares (Carcasas, Cargadores, Baterías externas)",
+          "canonica": false
+        },
+        "3": {
+          "nombre": "Accesorios para Cámaras (Lentes, Baterías, Bolsos, Trípodes)",
+          "canonica": false
+        },
+        "4": {
+          "nombre": "Audífonos",
+          "canonica": true
+        },
+        "5": {
+          "nombre": "Accesorios para Tablets y Notebooks (Fundas, Cargadores, Docks)",
+          "canonica": false
+        },
+        "6": {
+          "nombre": "Cámaras y Videocámaras",
+          "canonica": true
+        },
+        "7": {
+          "nombre": "Componentes de PC (Tarjetas de video, RAM, Discos Duros/SSD)",
+          "canonica": false
+        },
+        "8": {
+          "nombre": "Consolas de Videojuegos",
+          "canonica": false
+        },
+        "9": {
+          "nombre": "Desktops y All-in-One",
+          "canonica": true
+        },
+        "10": {
+          "nombre": "Drones",
+          "canonica": false
+        },
+        "11": {
+          "nombre": "Impresoras y Scanners",
+          "canonica": true
+        },
+        "12": {
+          "nombre": "Media Streaming (Chromecast, Apple TV, Roku)",
+          "canonica": false
+        },
+        "13": {
+          "nombre": "Monitores",
+          "canonica": true
+        },
+        "14": {
+          "nombre": "Notebooks",
+          "canonica": true
+        },
+        "15": {
+          "nombre": "Parlantes y Soundbars",
+          "canonica": true
+        },
+        "16": {
+          "nombre": "Realidad Virtual (VR)",
+          "canonica": false
+        },
+        "17": {
+          "nombre": "Seguridad y Vigilancia Inteligente (Cámaras, Sensores)",
+          "canonica": false
+        },
+        "18": {
+          "nombre": "Smart Home (Asistentes de Voz, Iluminación Inteligente)",
+          "canonica": false
+        },
+        "19": {
+          "nombre": "Smartwatches y Smartbands",
+          "canonica": true
+        },
+        "20": {
+          "nombre": "Sistemas de Audio y Home Theater",
+          "canonica": true
+        },
+        "21": {
+          "nombre": "Tablets",
+          "canonica": true
+        },
+        "22": {
+          "nombre": "E-readers",
+          "canonica": false
+        },
+        "23": {
+          "nombre": "Televisores",
+          "canonica": true
+        },
+        "24": {
+          "nombre": "Celulares y Smartphones",
+          "canonica": true
+        },
+        "25": {
+          "nombre": "Impresión 3D (Impresoras 3D, Filamentos, Resinas)",
+          "canonica": false
+        },
+        "26": {
+          "nombre": "Micrófonos",
+          "canonica": false
+        },
+        "27": {
+          "nombre": "Proyectores",
+          "canonica": false
+        },
+        "28": {
+          "nombre": "Tabletas Gráficas",
+          "canonica": false
+        },
+        "29": {
+          "nombre": "Accesorios para Smartwatches (Correas, Cargadores)",
+          "canonica": false
+        },
+        "30": {
+          "nombre": "Accesorios para Proyectores (Pantallas, Lentes)",
+          "canonica": false
+        },
+        "31": {
+          "nombre": "Accesorios para Drones (Hélices, Baterías)",
+          "canonica": false
+        },
+        "32": {
+          "nombre": "Accesorios de TV",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 2,
+    "2": {
       "nombre": "Electrodomésticos",
-      "categorias": [
-        {"id": 10, "nombre": "Aire Acondicionado y Climatización", "canonica": true},
-        {"id": 13, "nombre": "Campanas y Extractores", "canonica": true},
-        {"id": 18, "nombre": "Cocinas, Hornos y Encimeras", "canonica": true},
-        {"id": 24, "nombre": "Máquinas de Ejercicio (Trotadoras, Elípticas, Estáticas)", "canonica": true},
-        {"id": 26, "nombre": "Microondas", "canonica": true},
-        {"id": 57, "nombre": "Cuidado Personal Eléctrico (Afeitadoras, Secadores, Depiladoras)", "canonica": true},
-        {"id": 58, "nombre": "Aspiradoras y Limpiadores a Vapor", "canonica": true},
-        {"id": 61, "nombre": "Calefonts y Termos", "canonica": false},
-        {"id": 65, "nombre": "Lavadoras y Secadoras", "canonica": true},
-        {"id": 75, "nombre": "Lavavajillas", "canonica": true},
-        {"id": 77, "nombre": "Planchas", "canonica": true},
-        {"id": 79, "nombre": "Refrigeradores, Freezers y Frigobares", "canonica": true}
-      ]
+      "categorias": {
+        "33": {
+          "nombre": "Aire Acondicionado y Climatización",
+          "canonica": true
+        },
+        "34": {
+          "nombre": "Aspiradoras y Limpiadores a Vapor",
+          "canonica": true
+        },
+        "35": {
+          "nombre": "Calefonts y Termos Eléctricos",
+          "canonica": true
+        },
+        "36": {
+          "nombre": "Campanas y Extractores",
+          "canonica": true
+        },
+        "37": {
+          "nombre": "Cocinas, Hornos y Encimeras",
+          "canonica": true
+        },
+        "38": {
+          "nombre": "Lavadoras y Secadoras",
+          "canonica": true
+        },
+        "39": {
+          "nombre": "Lavavajillas",
+          "canonica": true
+        },
+        "40": {
+          "nombre": "Máquinas de Coser",
+          "canonica": false
+        },
+        "41": {
+          "nombre": "Microondas",
+          "canonica": true
+        },
+        "42": {
+          "nombre": "Pequeños Electrodomésticos de Cocina (Freidoras, Licuadoras, Cafeteras)",
+          "canonica": true
+        },
+        "43": {
+          "nombre": "Planchas",
+          "canonica": true
+        },
+        "44": {
+          "nombre": "Purificadores y Humidificadores",
+          "canonica": false
+        },
+        "45": {
+          "nombre": "Refrigeradores, Freezers y Frigobares",
+          "canonica": true
+        },
+        "137": {
+          "nombre": "Calefactores y Estufas",
+          "canonica": true
+        },
+        "138": {
+          "nombre": "Parrilla a gas",
+          "canonica": false
+        },
+        "139": {
+          "nombre": "Refrigeración Industrial",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 3,
+    "3": {
       "nombre": "Hogar",
-      "categorias": [
-        {"id": 9, "nombre": "Adornos y Decoración (Cuadros, Espejos, Velas, Floreros)", "canonica": false},
-        {"id": 12, "nombre": "Aseo y Limpieza del Hogar", "canonica": false},
-        {"id": 22, "nombre": "Iluminación (Lámparas, Ampolletas)", "canonica": true},
-        {"id": 28, "nombre": "Máquinas de Coser", "canonica": true},
-        {"id": 47, "nombre": "Jardinería y Piscina (Herramientas, Riego, Muebles de terraza, Parrillas)", "canonica": false},
-        {"id": 50, "nombre": "Colchones", "canonica": false},
-        {"id": 51, "nombre": "Muebles de Comedor (Juegos de Comedor, Buffets, Vitrinas, Bares)", "canonica": false},
-        {"id": 64, "nombre": "Muebles de Living (Sofás, Sillones, Mesas de centro, Racks)", "canonica": false},
-        {"id": 68, "nombre": "Muebles de Oficina (Escritorios, Sillas de oficina)", "canonica": false},
-        {"id": 69, "nombre": "Muebles de Dormitorio (Clósets, Cómodas, Veladores)", "canonica": false},
-        {"id": 70, "nombre": "Camas y Bases de Cama", "canonica": false},
-        {"id": 82, "nombre": "Menaje de Cocina y Comedor (Vajilla, Ollas, Sartenes)", "canonica": false},
-        {"id": 112, "nombre": "Muebles de Baño (Vanitorios, Espejos, Organizadores)", "canonica": false}
-      ]
+      "categorias": {
+        "46": {
+          "nombre": "Adornos, Decoración y Elementos Festivos",
+          "canonica": false
+        },
+        "47": {
+          "nombre": "Aseo y Limpieza del Hogar",
+          "canonica": false
+        },
+        "48": {
+          "nombre": "Camas y Bases de Cama",
+          "canonica": true
+        },
+        "49": {
+          "nombre": "Colchones",
+          "canonica": true
+        },
+        "50": {
+          "nombre": "Iluminación (Lámparas, Ampolletas)",
+          "canonica": false
+        },
+        "51": {
+          "nombre": "Jardinería y Piscina",
+          "canonica": false
+        },
+        "52": {
+          "nombre": "Muebles de Comedor",
+          "canonica": false
+        },
+        "53": {
+          "nombre": "Menaje de Cocina, Comedor y Servir",
+          "canonica": false
+        },
+        "54": {
+          "nombre": "Muebles de Dormitorio",
+          "canonica": false
+        },
+        "55": {
+          "nombre": "Muebles de Living",
+          "canonica": false
+        },
+        "56": {
+          "nombre": "Muebles de Oficina",
+          "canonica": false
+        },
+        "57": {
+          "nombre": "Ropa de Cama y Textiles",
+          "canonica": false
+        },
+        "58": {
+          "nombre": "Soportes, Racks y Stands",
+          "canonica": false
+        },
+        "59": {
+          "nombre": "Muebles de Baño",
+          "canonica": false
+        },
+        "60": {
+          "nombre": "Termos, Tazas y Mugs",
+          "canonica": false
+        },
+        "61": {
+          "nombre": "Contenedores y Organizadores",
+          "canonica": false
+        },
+        "62": {
+          "nombre": "Organización del Hogar",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 4,
+    "4": {
       "nombre": "Moda y Accesorios",
-      "categorias": [
-        {"id": 2, "nombre": "Accesorios de Moda (Lentes, Relojes, Joyería, Cinturones)", "canonica": false},
-        {"id": 19, "nombre": "Calzado de Hombre", "canonica": false},
-        {"id": 20, "nombre": "Calzado de Mujer", "canonica": false},
-        {"id": 76, "nombre": "Ropa de Cama y Textiles (Sábanas, Plumones, Alfombras, Cortinas)", "canonica": false},
-        {"id": 83, "nombre": "Ropa de Hombre", "canonica": false},
-        {"id": 84, "nombre": "Ropa de Mujer", "canonica": false},
-        {"id": 102, "nombre": "Disfraces", "canonica": false}
-      ]
+      "categorias": {
+        "63": {
+          "nombre": "Accesorios de Moda (Lentes, Relojes analógicos, Joyería, Cinturones)",
+          "canonica": false
+        },
+        "64": {
+          "nombre": "Calzado de Hombre",
+          "canonica": false
+        },
+        "65": {
+          "nombre": "Calzado de Mujer",
+          "canonica": false
+        },
+        "66": {
+          "nombre": "Ropa de Hombre",
+          "canonica": false
+        },
+        "67": {
+          "nombre": "Ropa de Mujer",
+          "canonica": false
+        },
+        "68": {
+          "nombre": "Maletas, Carteras y Bolsos de Viaje",
+          "canonica": false
+        },
+        "69": {
+          "nombre": "Mochilas",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 5,
+    "5": {
       "nombre": "Bebés y Maternidad",
-      "categorias": [
-        {"id": 27, "nombre": "Coches, Sillas de Auto y Paseo Infantil", "canonica": false},
-        {"id": 39, "nombre": "Lactancia y Alimentación del Bebé (Sillas, Mamaderas)", "canonica": false},
-        {"id": 45, "nombre": "Dormitorio del Bebé (Cunas, Corrales, Ropa de cuna)", "canonica": false},
-        {"id": 55, "nombre": "Higiene y Cuidado del Bebé (Pañales, Artículos de baño)", "canonica": false},
-        {"id": 56, "nombre": "Ropa de Bebé", "canonica": false},
-        {"id": 81, "nombre": "Seguridad para Bebés en el Hogar", "canonica": false},
-        {"id": 89, "nombre": "Juguetes y Entretención para Bebés", "canonica": false}
-      ]
+      "categorias": {
+        "70": {
+          "nombre": "Calzado Infantil",
+          "canonica": false
+        },
+        "71": {
+          "nombre": "Coches, Sillas de Auto y Paseo Infantil",
+          "canonica": false
+        },
+        "72": {
+          "nombre": "Dormitorio del Bebé",
+          "canonica": false
+        },
+        "73": {
+          "nombre": "Higiene y Cuidado del Bebé",
+          "canonica": false
+        },
+        "74": {
+          "nombre": "Juguetes y Entretención para Bebés",
+          "canonica": false
+        },
+        "75": {
+          "nombre": "Lactancia y Alimentación del Bebé",
+          "canonica": false
+        },
+        "76": {
+          "nombre": "Ropa de Bebé",
+          "canonica": false
+        },
+        "77": {
+          "nombre": "Seguridad para Bebés en el Hogar",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 6,
+    "6": {
       "nombre": "Niños y Juguetería",
-      "categorias": [
-        {"id": 21, "nombre": "Calzado Infantil", "canonica": false},
-        {"id": 38, "nombre": "Juguetes de Exterior (Triciclos, Scooters, Camas elásticas)", "canonica": false},
-        {"id": 53, "nombre": "Ropa de Niña", "canonica": false},
-        {"id": 71, "nombre": "Ropa de Niño", "canonica": false},
-        {"id": 85, "nombre": "Uniformes Escolares", "canonica": false},
-        {"id": 86, "nombre": "Muñecas y Figuras de Acción", "canonica": false},
-        {"id": 98, "nombre": "Vehículos y Pistas de Juguete", "canonica": false},
-        {"id": 99, "nombre": "Juegos de Construcción (LEGO, bloques)", "canonica": false}
-      ]
+      "categorias": {
+        "78": {
+          "nombre": "Disfraces",
+          "canonica": false
+        },
+        "79": {
+          "nombre": "Juguetes de Exterior",
+          "canonica": false
+        },
+        "80": {
+          "nombre": "Muñecas y Figuras de Acción",
+          "canonica": false
+        },
+        "81": {
+          "nombre": "Ropa de Niña",
+          "canonica": false
+        },
+        "82": {
+          "nombre": "Ropa de Niño",
+          "canonica": false
+        },
+        "83": {
+          "nombre": "Uniformes Escolares",
+          "canonica": false
+        },
+        "84": {
+          "nombre": "Vehículos y Pistas de Juguete",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 7,
+    "7": {
       "nombre": "Automotriz",
-      "categorias": [
-        {"id": 7, "nombre": "Accesorios para Vehículos (Interior, Exterior, Seguridad)", "canonica": false},
-        {"id": 8, "nombre": "Aceites y Fluidos para Vehículos", "canonica": false},
-        {"id": 14, "nombre": "Audio y Electrónica para Auto", "canonica": false},
-        {"id": 67, "nombre": "Motociclismo (Cascos, Indumentaria, Accesorios)", "canonica": false},
-        {"id": 72, "nombre": "Neumáticos y Llantas", "canonica": false},
-        {"id": 80, "nombre": "Repuestos de Vehículos (Frenos, Motor, Carrocería)", "canonica": false}
-      ]
+      "categorias": {
+        "85": {
+          "nombre": "Accesorios para Vehículos",
+          "canonica": false
+        },
+        "86": {
+          "nombre": "Aceites y Fluidos para Vehículos",
+          "canonica": false
+        },
+        "87": {
+          "nombre": "Audio y Electrónica para Auto",
+          "canonica": false
+        },
+        "88": {
+          "nombre": "Motociclismo",
+          "canonica": false
+        },
+        "89": {
+          "nombre": "Neumáticos y Llantas",
+          "canonica": false
+        },
+        "90": {
+          "nombre": "Repuestos de Vehículos",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 8,
+    "8": {
       "nombre": "Mascotas",
-      "categorias": [
-        {"id": 11, "nombre": "Alimento para Mascotas", "canonica": false},
-        {"id": 23, "nombre": "Camas y Casas para Mascotas", "canonica": false},
-        {"id": 44, "nombre": "Higiene y Cuidado de Mascotas", "canonica": false},
-        {"id": 54, "nombre": "Juguetes y Accesorios para Mascotas", "canonica": false}
-      ]
+      "categorias": {
+        "91": {
+          "nombre": "Alimento para Mascotas",
+          "canonica": false
+        },
+        "92": {
+          "nombre": "Camas y Casas para Mascotas",
+          "canonica": false
+        },
+        "93": {
+          "nombre": "Higiene y Cuidado de Mascotas",
+          "canonica": false
+        },
+        "94": {
+          "nombre": "Juguetes y Accesorios para Mascotas",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 9,
+    "9": {
       "nombre": "Deportes y Salud",
-      "categorias": [
-        {"id": 17, "nombre": "Bicicletas y Ciclismo", "canonica": false},
-        {"id": 35, "nombre": "Medicamentos y Farmacia", "canonica": false},
-        {"id": 41, "nombre": "Fitness y Musculación (Pesas, Mancuernas, Yoga)", "canonica": false},
-        {"id": 62, "nombre": "Camping y Outdoor", "canonica": false},
-        {"id": 87, "nombre": "Salud y Equipamiento Médico", "canonica": false},
-        {"id": 94, "nombre": "Suplementos Alimenticios y Vitaminas", "canonica": false},
-        {"id": 101, "nombre": "Maletas, Carteras y Bolsos de Viaje", "canonica": false}
-      ]
+      "categorias": {
+        "95": {
+          "nombre": "Bicicletas y Ciclismo",
+          "canonica": false
+        },
+        "96": {
+          "nombre": "Medicamentos y Farmacia",
+          "canonica": false
+        },
+        "97": {
+          "nombre": "Fitness y Musculación",
+          "canonica": false
+        },
+        "98": {
+          "nombre": "Máquinas de Ejercicio",
+          "canonica": false
+        },
+        "99": {
+          "nombre": "Salud y Equipamiento Médico",
+          "canonica": false
+        },
+        "100": {
+          "nombre": "Suplementos Alimenticios y Vitaminas",
+          "canonica": false
+        },
+        "101": {
+          "nombre": "Camping y Outdoor",
+          "canonica": false
+        },
+        "102": {
+          "nombre": "Deportes Acuáticos",
+          "canonica": false
+        },
+        "103": {
+          "nombre": "Deportes de Nieve",
+          "canonica": false
+        },
+        "104": {
+          "nombre": "Deportes de Rolling",
+          "canonica": false
+        },
+        "105": {
+          "nombre": "Deportes Colectivos",
+          "canonica": false
+        },
+        "106": {
+          "nombre": "Armas y Equipamiento de Caza",
+          "canonica": false
+        },
+        "107": {
+          "nombre": "Primeros Auxilios",
+          "canonica": false
+        },
+        "108": {
+          "nombre": "Deportes de Aventura y Montaña",
+          "canonica": false
+        },
+        "109": {
+          "nombre": "Equipamiento Deportivo Especializado",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 10,
+    "10": {
       "nombre": "Belleza y Cuidado Personal",
-      "categorias": [
-        {"id": 32, "nombre": "Cuidado de la Piel y Dermocosmética (Facial y Corporal)", "canonica": false},
-        {"id": 33, "nombre": "Cuidado del Cabello (Shampoo, Acondicionador, Tratamientos)", "canonica": false},
-        {"id": 34, "nombre": "Maquillaje (Rostro, Ojos, Labios)", "canonica": false},
-        {"id": 46, "nombre": "Perfumes y Fragancias", "canonica": false},
-        {"id": 60, "nombre": "Higiene Personal (Jabones, Desodorantes, Cuidado Dental)", "canonica": false}
-      ]
+      "categorias": {
+        "65": {
+          "nombre": "Perfumes y Fragancias",
+          "canonica": false
+        },
+        "110": {
+          "nombre": "Cuidado de la Piel y Dermocosmética",
+          "canonica": false
+        },
+        "111": {
+          "nombre": "Cuidado del Cabello",
+          "canonica": false
+        },
+        "112": {
+          "nombre": "Cuidado Personal Eléctrico",
+          "canonica": false
+        },
+        "113": {
+          "nombre": "Higiene Personal",
+          "canonica": false
+        },
+        "114": {
+          "nombre": "Maquillaje",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 11,
+    "11": {
       "nombre": "Alimentos y Bebidas",
-      "categorias": [
-        {"id": 16, "nombre": "Bebidas Alcohólicas", "canonica": false},
-        {"id": 37, "nombre": "Despensa y Alimentos", "canonica": false},
-        {"id": 104, "nombre": "Bebidas No Alcohólicas", "canonica": false},
-        {"id": 105, "nombre": "Panadería y Pastelería", "canonica": false},
-        {"id": 106, "nombre": "Congelados", "canonica": false},
-        {"id": 107, "nombre": "Carnes y Pescados", "canonica": false},
-        {"id": 108, "nombre": "Frutas y Verduras", "canonica": false},
-        {"id": 109, "nombre": "Lácteos, Quesos y Huevos", "canonica": false},
-        {"id": 110, "nombre": "Dulces y Snacks", "canonica": false},
-        {"id": 111, "nombre": "Embutidos", "canonica": false}
-      ]
+      "categorias": {
+        "115": {
+          "nombre": "Bebidas Alcohólicas",
+          "canonica": false
+        },
+        "116": {
+          "nombre": "Despensa y Alimentos No Perecibles",
+          "canonica": false
+        },
+        "117": {
+          "nombre": "Bebidas No Alcohólicas",
+          "canonica": false
+        },
+        "118": {
+          "nombre": "Panadería y Pastelería",
+          "canonica": false
+        },
+        "119": {
+          "nombre": "Congelados",
+          "canonica": false
+        },
+        "120": {
+          "nombre": "Carnes y Pescados",
+          "canonica": false
+        },
+        "121": {
+          "nombre": "Frutas y Verduras",
+          "canonica": false
+        },
+        "122": {
+          "nombre": "Lácteos, Quesos y Huevos",
+          "canonica": false
+        },
+        "123": {
+          "nombre": "Dulces y Snacks",
+          "canonica": false
+        },
+        "124": {
+          "nombre": "Embutidos",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 12,
+    "12": {
       "nombre": "Librería y Pasatiempos",
-      "categorias": [
-        {"id": 49, "nombre": "Libros, Papelería y Artículos de Oficina (Lápices, Cuadernos, Pizarras)", "canonica": false},
-        {"id": 52, "nombre": "Juegos de Mesa y Puzzles", "canonica": false},
-        {"id": 59, "nombre": "Arte y Manualidades", "canonica": false}
-      ]
+      "categorias": {
+        "125": {
+          "nombre": "Instrumentos Musicales",
+          "canonica": false
+        },
+        "126": {
+          "nombre": "Juegos de Mesa y Puzzles",
+          "canonica": false
+        },
+        "127": {
+          "nombre": "Libros, Papelería y Artículos de Oficina",
+          "canonica": false
+        },
+        "128": {
+          "nombre": "Instrumentos Ópticos (Telescopios, Microscopios, Binoculares)",
+          "canonica": false
+        },
+        "129": {
+          "nombre": "Accesorios para Instrumentos Musicales",
+          "canonica": false
+        }
+      }
     },
-    {
-      "id": 13,
+    "13": {
       "nombre": "Ferretería y Construcción",
-      "categorias": [
-        {"id": 31, "nombre": "Construcción y Ferretería (Materiales, Pinturas, Grifería)", "canonica": false},
-        {"id": 42, "nombre": "Herramientas Eléctricas (Taladros, Sierras, Esmeriles)", "canonica": false},
-        {"id": 43, "nombre": "Herramientas Manuales (Martillos, Destornilladores, Alicates)", "canonica": false},
-        {"id": 88, "nombre": "Seguridad Laboral (Guantes, Cascos, Zapatos de seguridad)", "canonica": false}
-      ]
+      "categorias": {
+        "130": {
+          "nombre": "Ferretería General",
+          "canonica": false
+        },
+        "131": {
+          "nombre": "Materiales de Construcción",
+          "canonica": false
+        },
+        "132": {
+          "nombre": "Herramientas Eléctricas",
+          "canonica": false
+        },
+        "133": {
+          "nombre": "Herramientas Manuales",
+          "canonica": false
+        },
+        "134": {
+          "nombre": "Pinturas y Acabados",
+          "canonica": false
+        },
+        "135": {
+          "nombre": "Fontanería y Electricidad",
+          "canonica": false
+        },
+        "136": {
+          "nombre": "Cerraduras y Herrajes",
+          "canonica": false
+        }
+      }
     }
-  ]
+  }
 }
