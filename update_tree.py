@@ -106,8 +106,18 @@ def update_index_html(md_content):
       background: #27272a;
       color: white;
     }}
-    .markmap svg text {{
+    .markmap, .markmap svg {{
+      color: white !important;
+    }}
+    .markmap svg text, 
+    .markmap svg foreignObject div,
+    .markmap svg foreignObject span,
+    .markmap svg foreignObject strong {{
+      color: white !important;
       fill: white !important;
+    }}
+    .markmap svg path.markmap-link {{
+      stroke: #888;
     }}
   </style>
 </head>
