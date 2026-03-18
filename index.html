@@ -1,40 +1,35 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<title>Markmap - Árbol de Categorías</title>
-<style>
-* {
-  margin: 0;
-  padding: 0;
-}
-html {
-  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-#mindmap {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-}
-.markmap-dark {
-  background: #27272a;
-  color: white;
-}
-</style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Markmap - Árbol de Categorías</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    #mindmap {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #27272a;
+        color: white;
+      }
+    }
+  </style>
 </head>
 <body>
-<svg id="mindmap"></svg>
-<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.umd.js"></script>
-<script>
-// Actualización del árbol (solo cambia los datos en markdownTree):
-
-const markdownTree = `
+  <div class="markmap" id="mindmap">
+    <script type="text/template">
 # Árbol de Categorías
 
 ## Excluidos
@@ -45,27 +40,27 @@ const markdownTree = `
 - Accesorios de Computación (Mouses, Teclados, Webcams) (1)
 - Accesorios para Celulares (Carcasas, Cargadores, Baterías externas) (2)
 - Accesorios para Cámaras (Lentes, Baterías, Bolsos, Trípodes) (3)
-- Audífonos (4)
+- **Audífonos (4)**
 - Accesorios para Tablets y Notebooks (Fundas, Cargadores, Docks) (5)
-- Cámaras y Videocámaras (6)
+- **Cámaras y Videocámaras (6)**
 - Componentes de PC (Tarjetas de video, RAM, Discos Duros/SSD) (7)
 - Consolas de Videojuegos (8)
-- Desktops y All-in-One (9)
+- **Desktops y All-in-One (9)**
 - Drones (10)
-- Impresoras y Scanners (11)
+- **Impresoras y Scanners (11)**
 - Media Streaming (Chromecast, Apple TV, Roku) (12)
-- Monitores (13)
-- Notebooks (14)
-- Parlantes y Soundbars (15)
+- **Monitores (13)**
+- **Notebooks (14)**
+- **Parlantes y Soundbars (15)**
 - Realidad Virtual (VR) (16)
 - Seguridad y Vigilancia Inteligente (Cámaras, Sensores) (17)
 - Smart Home (Asistentes de Voz, Iluminación Inteligente) (18)
-- Smartwatches y Smartbands (19)
-- Sistemas de Audio y Home Theater (20)
-- Tablets (21)
+- **Smartwatches y Smartbands (19)**
+- **Sistemas de Audio y Home Theater (20)**
+- **Tablets (21)**
 - E-readers (22)
-- Televisores (23)
-- Celulares y Smartphones (24)
+- **Televisores (23)**
+- **Celulares y Smartphones (24)**
 - Impresión 3D (Impresoras 3D, Filamentos, Resinas) (25)
 - Micrófonos (26)
 - Proyectores (27)
@@ -76,28 +71,28 @@ const markdownTree = `
 - Accesorios de TV (32)
 
 ## Electrodomésticos
-- Aire Acondicionado y Climatización (33)
-- Aspiradoras y Limpiadores a Vapor (34)
-- Calefonts y Termos Eléctricos (35)
-- Campanas y Extractores (36)
-- Cocinas, Hornos y Encimeras (37)
-- Lavadoras y Secadoras (38)
-- Lavavajillas (39)
+- **Aire Acondicionado y Climatización (33)**
+- **Aspiradoras y Limpiadores a Vapor (34)**
+- **Calefonts y Termos Eléctricos (35)**
+- **Campanas y Extractores (36)**
+- **Cocinas, Hornos y Encimeras (37)**
+- **Lavadoras y Secadoras (38)**
+- **Lavavajillas (39)**
 - Máquinas de Coser (40)
-- Microondas (41)
-- Pequeños Electrodomésticos de Cocina (Freidoras, Licuadoras, Cafeteras) (42)
-- Planchas (43)
+- **Microondas (41)**
+- **Pequeños Electrodomésticos de Cocina (Freidoras, Licuadoras, Cafeteras) (42)**
+- **Planchas (43)**
 - Purificadores y Humidificadores (44)
-- Refrigeradores, Freezers y Frigobares (45)
-- Calefactores y Estufas (137)
+- **Refrigeradores, Freezers y Frigobares (45)**
+- **Calefactores y Estufas (137)**
 - Parrilla a gas (138)
 - Refrigeración Industrial (139)
 
 ## Hogar
 - Adornos, Decoración y Elementos Festivos (46)
 - Aseo y Limpieza del Hogar (47)
-- Camas y Bases de Cama (48)
-- Colchones (49)
+- **Camas y Bases de Cama (48)**
+- **Colchones (49)**
 - Iluminación (Lámparas, Ampolletas) (50)
 - Jardinería y Piscina (51)
 - Muebles de Comedor (52)
@@ -206,12 +201,9 @@ const markdownTree = `
 - Pinturas y Acabados (134)
 - Fontanería y Electricidad (135)
 - Cerraduras y Herrajes (136)
-`;
 
-// Markmap loader logica original intacta:
-window.mm = markmap
-  .createMarkmap(document.getElementById("mindmap"), null, markdownTree);
-
-</script>
+    </script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.17.0"></script>
 </body>
 </html>

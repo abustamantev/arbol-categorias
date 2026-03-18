@@ -19,172 +19,172 @@
 
 ## Categorías por Dominio
 
-### Dominio 0: Excluidos
-- 0: Categoria Indeterminada
-- 400: Error de Parseo
+### Excluidos
+- Categoria Indeterminada (0)
+- Error de Parseo (400)
 
-### Dominio 1: Tecnología
-- 1: Accesorios de Computación (Mouses, Teclados, Webcams)
-- 2: Accesorios para Celulares (Carcasas, Cargadores, Baterías externas)
-- 3: Accesorios para Cámaras (Lentes, Baterías, Bolsos, Trípodes)
-- 4: Audífonos
-- 5: Accesorios para Tablets y Notebooks (Fundas, Cargadores, Docks)
-- 6: Cámaras y Videocámaras
-- 7: Componentes de PC (Tarjetas de video, RAM, Discos Duros/SSD)
-- 8: Consolas de Videojuegos
-- 9: Desktops y All-in-One
-- 10: Drones
-- 11: Impresoras y Scanners
-- 12: Media Streaming (Chromecast, Apple TV, Roku)
-- 13: Monitores
-- 14: Notebooks
-- 15: Parlantes y Soundbars
-- 16: Realidad Virtual (VR)
-- 17: Seguridad y Vigilancia Inteligente (Cámaras, Sensores)
-- 18: Smart Home (Asistentes de Voz, Iluminación Inteligente)
-- 19: Smartwatches y Smartbands
-- 20: Sistemas de Audio y Home Theater
-- 21: Tablets
-- 22: E-readers
-- 23: Televisores
-- 24: Celulares y Smartphones
-- 25: Impresión 3D (Impresoras 3D, Filamentos, Resinas)
-- 26: Micrófonos
-- 27: Proyectores
-- 28: Tabletas Gráficas
-- 29: Accesorios para Smartwatches (Correas, Cargadores)
-- 30: Accesorios para Proyectores (Pantallas, Lentes)
-- 31: Accesorios para Drones (Hélices, Baterías)
-- 32: Accesorios de TV
+### Tecnología
+- Accesorios de Computación (Mouses, Teclados, Webcams) (1)
+- Accesorios para Celulares (Carcasas, Cargadores, Baterías externas) (2)
+- Accesorios para Cámaras (Lentes, Baterías, Bolsos, Trípodes) (3)
+- **Audífonos (4)**
+- Accesorios para Tablets y Notebooks (Fundas, Cargadores, Docks) (5)
+- **Cámaras y Videocámaras (6)**
+- Componentes de PC (Tarjetas de video, RAM, Discos Duros/SSD) (7)
+- Consolas de Videojuegos (8)
+- **Desktops y All-in-One (9)**
+- Drones (10)
+- **Impresoras y Scanners (11)**
+- Media Streaming (Chromecast, Apple TV, Roku) (12)
+- **Monitores (13)**
+- **Notebooks (14)**
+- **Parlantes y Soundbars (15)**
+- Realidad Virtual (VR) (16)
+- Seguridad y Vigilancia Inteligente (Cámaras, Sensores) (17)
+- Smart Home (Asistentes de Voz, Iluminación Inteligente) (18)
+- **Smartwatches y Smartbands (19)**
+- **Sistemas de Audio y Home Theater (20)**
+- **Tablets (21)**
+- E-readers (22)
+- **Televisores (23)**
+- **Celulares y Smartphones (24)**
+- Impresión 3D (Impresoras 3D, Filamentos, Resinas) (25)
+- Micrófonos (26)
+- Proyectores (27)
+- Tabletas Gráficas (28)
+- Accesorios para Smartwatches (Correas, Cargadores) (29)
+- Accesorios para Proyectores (Pantallas, Lentes) (30)
+- Accesorios para Drones (Hélices, Baterías) (31)
+- Accesorios de TV (32)
 
-### Dominio 2: Electrodomésticos
-- 33: Aire Acondicionado y Climatización
-- 34: Aspiradoras y Limpiadores a Vapor
-- 35: Calefonts y Termos Eléctricos
-- 36: Campanas y Extractores
-- 37: Cocinas, Hornos y Encimeras
-- 38: Lavadoras y Secadoras
-- 39: Lavavajillas
-- 40: Máquinas de Coser
-- 41: Microondas
-- 42: Pequeños Electrodomésticos de Cocina (Freidoras, Licuadoras, Cafeteras)
-- 43: Planchas
-- 44: Purificadores y Humidificadores
-- 45: Refrigeradores, Freezers y Frigobares
-- 137: Calefactores y Estufas
-- 138: Parrilla a gas
-- 139: Refrigeración Industrial
+### Electrodomésticos
+- **Aire Acondicionado y Climatización (33)**
+- **Aspiradoras y Limpiadores a Vapor (34)**
+- **Calefonts y Termos Eléctricos (35)**
+- **Campanas y Extractores (36)**
+- **Cocinas, Hornos y Encimeras (37)**
+- **Lavadoras y Secadoras (38)**
+- **Lavavajillas (39)**
+- Máquinas de Coser (40)
+- **Microondas (41)**
+- **Pequeños Electrodomésticos de Cocina (Freidoras, Licuadoras, Cafeteras) (42)**
+- **Planchas (43)**
+- Purificadores y Humidificadores (44)
+- **Refrigeradores, Freezers y Frigobares (45)**
+- **Calefactores y Estufas (137)**
+- Parrilla a gas (138)
+- Refrigeración Industrial (139)
 
-### Dominio 3: Hogar
-- 46: Adornos, Decoración y Elementos Festivos
-- 47: Aseo y Limpieza del Hogar
-- 48: Camas y Bases de Cama
-- 49: Colchones
-- 50: Iluminación (Lámparas, Ampolletas)
-- 51: Jardinería y Piscina
-- 52: Muebles de Comedor
-- 53: Menaje de Cocina, Comedor y Servir
-- 54: Muebles de Dormitorio
-- 55: Muebles de Living
-- 56: Muebles de Oficina
-- 57: Ropa de Cama y Textiles
-- 58: Soportes, Racks y Stands
-- 59: Muebles de Baño
-- 60: Termos, Tazas y Mugs
-- 61: Contenedores y Organizadores
-- 62: Organización del Hogar
+### Hogar
+- Adornos, Decoración y Elementos Festivos (46)
+- Aseo y Limpieza del Hogar (47)
+- **Camas y Bases de Cama (48)**
+- **Colchones (49)**
+- Iluminación (Lámparas, Ampolletas) (50)
+- Jardinería y Piscina (51)
+- Muebles de Comedor (52)
+- Menaje de Cocina, Comedor y Servir (53)
+- Muebles de Dormitorio (54)
+- Muebles de Living (55)
+- Muebles de Oficina (56)
+- Ropa de Cama y Textiles (57)
+- Soportes, Racks y Stands (58)
+- Muebles de Baño (59)
+- Termos, Tazas y Mugs (60)
+- Contenedores y Organizadores (61)
+- Organización del Hogar (62)
 
-### Dominio 4: Moda y Accesorios
-- 63: Accesorios de Moda (Lentes, Relojes analógicos, Joyería, Cinturones)
-- 64: Calzado de Hombre
-- 65: Calzado de Mujer
-- 66: Ropa de Hombre
-- 67: Ropa de Mujer
-- 68: Maletas, Carteras y Bolsos de Viaje
-- 69: Mochilas
+### Moda y Accesorios
+- Accesorios de Moda (Lentes, Relojes analógicos, Joyería, Cinturones) (63)
+- Calzado de Hombre (64)
+- Calzado de Mujer (65)
+- Ropa de Hombre (66)
+- Ropa de Mujer (67)
+- Maletas, Carteras y Bolsos de Viaje (68)
+- Mochilas (69)
 
-### Dominio 5: Bebés y Maternidad
-- 70: Calzado Infantil
-- 71: Coches, Sillas de Auto y Paseo Infantil
-- 72: Dormitorio del Bebé
-- 73: Higiene y Cuidado del Bebé
-- 74: Juguetes y Entretención para Bebés
-- 75: Lactancia y Alimentación del Bebé
-- 76: Ropa de Bebé
-- 77: Seguridad para Bebés en el Hogar
+### Bebés y Maternidad
+- Calzado Infantil (70)
+- Coches, Sillas de Auto y Paseo Infantil (71)
+- Dormitorio del Bebé (72)
+- Higiene y Cuidado del Bebé (73)
+- Juguetes y Entretención para Bebés (74)
+- Lactancia y Alimentación del Bebé (75)
+- Ropa de Bebé (76)
+- Seguridad para Bebés en el Hogar (77)
 
-### Dominio 6: Niños y Juguetería
-- 78: Disfraces
-- 79: Juguetes de Exterior
-- 80: Muñecas y Figuras de Acción
-- 81: Ropa de Niña
-- 82: Ropa de Niño
-- 83: Uniformes Escolares
-- 84: Vehículos y Pistas de Juguete
+### Niños y Juguetería
+- Disfraces (78)
+- Juguetes de Exterior (79)
+- Muñecas y Figuras de Acción (80)
+- Ropa de Niña (81)
+- Ropa de Niño (82)
+- Uniformes Escolares (83)
+- Vehículos y Pistas de Juguete (84)
 
-### Dominio 7: Automotriz
-- 85: Accesorios para Vehículos
-- 86: Aceites y Fluidos para Vehículos
-- 87: Audio y Electrónica para Auto
-- 88: Motociclismo
-- 89: Neumáticos y Llantas
-- 90: Repuestos de Vehículos
+### Automotriz
+- Accesorios para Vehículos (85)
+- Aceites y Fluidos para Vehículos (86)
+- Audio y Electrónica para Auto (87)
+- Motociclismo (88)
+- Neumáticos y Llantas (89)
+- Repuestos de Vehículos (90)
 
-### Dominio 8: Mascotas
-- 91: Alimento para Mascotas
-- 92: Camas y Casas para Mascotas
-- 93: Higiene y Cuidado de Mascotas
-- 94: Juguetes y Accesorios para Mascotas
+### Mascotas
+- Alimento para Mascotas (91)
+- Camas y Casas para Mascotas (92)
+- Higiene y Cuidado de Mascotas (93)
+- Juguetes y Accesorios para Mascotas (94)
 
-### Dominio 9: Deportes y Salud
-- 95: Bicicletas y Ciclismo
-- 96: Medicamentos y Farmacia
-- 97: Fitness y Musculación
-- 98: Máquinas de Ejercicio
-- 99: Salud y Equipamiento Médico
-- 100: Suplementos Alimenticios y Vitaminas
-- 101: Camping y Outdoor
-- 102: Deportes Acuáticos
-- 103: Deportes de Nieve
-- 104: Deportes de Rolling
-- 105: Deportes Colectivos
-- 106: Armas y Equipamiento de Caza
-- 107: Primeros Auxilios
-- 108: Deportes de Aventura y Montaña
-- 109: Equipamiento Deportivo Especializado
+### Deportes y Salud
+- Bicicletas y Ciclismo (95)
+- Medicamentos y Farmacia (96)
+- Fitness y Musculación (97)
+- Máquinas de Ejercicio (98)
+- Salud y Equipamiento Médico (99)
+- Suplementos Alimenticios y Vitaminas (100)
+- Camping y Outdoor (101)
+- Deportes Acuáticos (102)
+- Deportes de Nieve (103)
+- Deportes de Rolling (104)
+- Deportes Colectivos (105)
+- Armas y Equipamiento de Caza (106)
+- Primeros Auxilios (107)
+- Deportes de Aventura y Montaña (108)
+- Equipamiento Deportivo Especializado (109)
 
-### Dominio 10: Belleza y Cuidado Personal
-- 65: Perfumes y Fragancias
-- 110: Cuidado de la Piel y Dermocosmética
-- 111: Cuidado del Cabello
-- 112: Cuidado Personal Eléctrico
-- 113: Higiene Personal
-- 114: Maquillaje
+### Belleza y Cuidado Personal
+- Perfumes y Fragancias (65)
+- Cuidado de la Piel y Dermocosmética (110)
+- Cuidado del Cabello (111)
+- Cuidado Personal Eléctrico (112)
+- Higiene Personal (113)
+- Maquillaje (114)
 
-### Dominio 11: Alimentos y Bebidas
-- 115: Bebidas Alcohólicas
-- 116: Despensa y Alimentos No Perecibles
-- 117: Bebidas No Alcohólicas
-- 118: Panadería y Pastelería
-- 119: Congelados
-- 120: Carnes y Pescados
-- 121: Frutas y Verduras
-- 122: Lácteos, Quesos y Huevos
-- 123: Dulces y Snacks
-- 124: Embutidos
+### Alimentos y Bebidas
+- Bebidas Alcohólicas (115)
+- Despensa y Alimentos No Perecibles (116)
+- Bebidas No Alcohólicas (117)
+- Panadería y Pastelería (118)
+- Congelados (119)
+- Carnes y Pescados (120)
+- Frutas y Verduras (121)
+- Lácteos, Quesos y Huevos (122)
+- Dulces y Snacks (123)
+- Embutidos (124)
 
-### Dominio 12: Librería y Pasatiempos
-- 125: Instrumentos Musicales
-- 126: Juegos de Mesa y Puzzles
-- 127: Libros, Papelería y Artículos de Oficina
-- 128: Instrumentos Ópticos (Telescopios, Microscopios, Binoculares)
-- 129: Accesorios para Instrumentos Musicales
+### Librería y Pasatiempos
+- Instrumentos Musicales (125)
+- Juegos de Mesa y Puzzles (126)
+- Libros, Papelería y Artículos de Oficina (127)
+- Instrumentos Ópticos (Telescopios, Microscopios, Binoculares) (128)
+- Accesorios para Instrumentos Musicales (129)
 
-### Dominio 13: Ferretería y Construcción
-- 130: Ferretería General
-- 131: Materiales de Construcción
-- 132: Herramientas Eléctricas
-- 133: Herramientas Manuales
-- 134: Pinturas y Acabados
-- 135: Fontanería y Electricidad
-- 136: Cerraduras y Herrajes
+### Ferretería y Construcción
+- Ferretería General (130)
+- Materiales de Construcción (131)
+- Herramientas Eléctricas (132)
+- Herramientas Manuales (133)
+- Pinturas y Acabados (134)
+- Fontanería y Electricidad (135)
+- Cerraduras y Herrajes (136)
