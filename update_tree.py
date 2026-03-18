@@ -93,10 +93,14 @@ def update_index_html(md_content):
       font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
         'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     }}
-    #mindmap {{
+    .markmap {{
       display: block;
       width: 100vw;
       height: 100vh;
+    }}
+    .markmap > svg {{
+      width: 100%;
+      height: 100%;
     }}
     @media (prefers-color-scheme: dark) {{
       body {{
