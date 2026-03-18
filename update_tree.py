@@ -102,17 +102,22 @@ def update_index_html(md_content):
       width: 100%;
       height: 100%;
     }}
-    @media (prefers-color-scheme: dark) {{
-      body {{
-        background: #27272a;
-        color: white;
-      }}
+    body {{
+      background: #27272a;
+      color: white;
+    }}
+    .markmap svg text {{
+      fill: white !important;
     }}
   </style>
 </head>
 <body>
   <div class="markmap" id="mindmap">
     <script type="text/template">
+---
+markmap:
+  initialExpandLevel: 2
+---
 # Árbol de Categorías
 
 {md_content}
