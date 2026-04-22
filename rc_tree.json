@@ -17,7 +17,7 @@
       "nombre": "Tecnología",
       "categorias": {
         "1": {
-          "nombre": "Accesorios de Computación (Mouses, Teclados, Webcams)",
+          "nombre": "Accesorios para Computación (Mouses, Teclados, Webcams, Hubs USB)",
           "canonica": false
         },
         "2": {
@@ -141,7 +141,23 @@
           "canonica": false
         },
         "32": {
-          "nombre": "Accesorios de TV",
+          "nombre": "Accesorios para Televisores (Soportes, Controles Remotos, Cables HDMI)",
+          "canonica": false
+        },
+        "141": {
+          "nombre": "Accesorios para Audífonos (Almohadillas, Cables, Estuches)",
+          "canonica": false
+        },
+        "142": {
+          "nombre": "Accesorios para Impresoras y Scanners (Tóners, Cartuchos, Papel Fotográfico)",
+          "canonica": false
+        },
+        "143": {
+          "nombre": "Accesorios para Parlantes, Soundbars y Sistemas de Audio (Soportes, Cables de Audio, Baterías)",
+          "canonica": false
+        },
+        "145": {
+          "nombre": "Accesorios para Consolas de Videojuegos (Mandos, Auriculares Gaming)",
           "canonica": false
         }
       }
@@ -212,6 +228,38 @@
         "139": {
           "nombre": "Refrigeración Industrial",
           "canonica": false
+        },
+        "146": {
+          "nombre": "Accesorios para Aire Acondicionado (Filtros, Controles Remotos)",
+          "canonica": false
+        },
+        "147": {
+          "nombre": "Accesorios para Aspiradoras y Limpiadores a Vapor (Cepillos, Filtros, Bolsas, Mopas)",
+          "canonica": false
+        },
+        "148": {
+          "nombre": "Accesorios para Cocinas y Hornos (Moldes, Fuentes, Rejillas)",
+          "canonica": false
+        },
+        "149": {
+          "nombre": "Accesorios para Lavadoras y Secadoras (Filtros, Mangueras, Tambores)",
+          "canonica": false
+        },
+        "150": {
+          "nombre": "Accesorios para Microondas (Platos Giratorios, Cobertores)",
+          "canonica": false
+        },
+        "151": {
+          "nombre": "Accesorios para Pequeños Electrodomésticos (Vasos de Licuadora, Accesorios Freidora)",
+          "canonica": false
+        },
+        "152": {
+          "nombre": "Accesorios para Refrigeradores (Bandejas, Cajones, Filtros de Agua)",
+          "canonica": false
+        },
+        "155": {
+          "nombre": "Ventiladores (Techo, Pedestal, Torre, Mesa)",
+          "canonica": false
         }
       }
     },
@@ -239,7 +287,7 @@
           "canonica": false
         },
         "51": {
-          "nombre": "Jardinería y Piscina",
+          "nombre": "Jardinería (Maceteros, Herramientas de Jardín, Semillas, Cortacéspedes, Riego)",
           "canonica": false
         },
         "52": {
@@ -252,11 +300,11 @@
         },
         "54": {
           "nombre": "Muebles de Dormitorio",
-          "canonica": false
+          "canonica": true
         },
         "55": {
           "nombre": "Muebles de Living",
-          "canonica": false
+          "canonica": true
         },
         "56": {
           "nombre": "Muebles de Oficina",
@@ -264,7 +312,7 @@
         },
         "57": {
           "nombre": "Ropa de Cama y Textiles",
-          "canonica": false
+          "canonica": true
         },
         "58": {
           "nombre": "Soportes, Racks y Stands",
@@ -279,11 +327,11 @@
           "canonica": false
         },
         "61": {
-          "nombre": "Contenedores y Organizadores",
+          "nombre": "Contenedores, Organizadores y Almacenamiento del Hogar (Cajas, Cajones, Canastos, Separadores)",
           "canonica": false
         },
-        "62": {
-          "nombre": "Organización del Hogar",
+        "153": {
+          "nombre": "Piscinas y Spa (Bombas, Filtros, Cloro, Limpiafondos, Cubiertas)",
           "canonica": false
         }
       }
@@ -509,7 +557,7 @@
     "10": {
       "nombre": "Belleza y Cuidado Personal",
       "categorias": {
-        "65": {
+        "140": {
           "nombre": "Perfumes y Fragancias",
           "canonica": false
         },
@@ -629,11 +677,15 @@
           "canonica": false
         },
         "135": {
-          "nombre": "Fontanería y Electricidad",
+          "nombre": "Fontanería y Plomería (Tuberías, Grifería, Sifones, Llaves de Paso)",
           "canonica": false
         },
         "136": {
           "nombre": "Cerraduras y Herrajes",
+          "canonica": false
+        },
+        "154": {
+          "nombre": "Electricidad e Instalaciones (Cables, Enchufes, Interruptores, Tableros Eléctricos)",
           "canonica": false
         }
       }

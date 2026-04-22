@@ -24,7 +24,7 @@
 - Error de Parseo (400)
 
 ### Tecnología
-- Accesorios de Computación (Mouses, Teclados, Webcams) (1)
+- Accesorios para Computación (Mouses, Teclados, Webcams, Hubs USB) (1)
 - Accesorios para Celulares (Carcasas, Cargadores, Baterías externas) (2)
 - Accesorios para Cámaras (Lentes, Baterías, Bolsos, Trípodes) (3)
 - **Audífonos (4)**
@@ -55,7 +55,11 @@
 - Accesorios para Smartwatches (Correas, Cargadores) (29)
 - Accesorios para Proyectores (Pantallas, Lentes) (30)
 - Accesorios para Drones (Hélices, Baterías) (31)
-- Accesorios de TV (32)
+- Accesorios para Televisores (Soportes, Controles Remotos, Cables HDMI) (32)
+- Accesorios para Audífonos (Almohadillas, Cables, Estuches) (141)
+- Accesorios para Impresoras y Scanners (Tóners, Cartuchos, Papel Fotográfico) (142)
+- Accesorios para Parlantes, Soundbars y Sistemas de Audio (Soportes, Cables de Audio, Baterías) (143)
+- Accesorios para Consolas de Videojuegos (Mandos, Auriculares Gaming) (145)
 
 ### Electrodomésticos
 - **Aire Acondicionado y Climatización (33)**
@@ -74,6 +78,14 @@
 - **Calefactores y Estufas (137)**
 - Parrilla a gas (138)
 - Refrigeración Industrial (139)
+- Accesorios para Aire Acondicionado (Filtros, Controles Remotos) (146)
+- Accesorios para Aspiradoras y Limpiadores a Vapor (Cepillos, Filtros, Bolsas, Mopas) (147)
+- Accesorios para Cocinas y Hornos (Moldes, Fuentes, Rejillas) (148)
+- Accesorios para Lavadoras y Secadoras (Filtros, Mangueras, Tambores) (149)
+- Accesorios para Microondas (Platos Giratorios, Cobertores) (150)
+- Accesorios para Pequeños Electrodomésticos (Vasos de Licuadora, Accesorios Freidora) (151)
+- Accesorios para Refrigeradores (Bandejas, Cajones, Filtros de Agua) (152)
+- Ventiladores (Techo, Pedestal, Torre, Mesa) (155)
 
 ### Hogar
 - Adornos, Decoración y Elementos Festivos (46)
@@ -81,18 +93,18 @@
 - **Camas y Bases de Cama (48)**
 - **Colchones (49)**
 - Iluminación (Lámparas, Ampolletas) (50)
-- Jardinería y Piscina (51)
+- Jardinería (Maceteros, Herramientas de Jardín, Semillas, Cortacéspedes, Riego) (51)
 - Muebles de Comedor (52)
 - Menaje de Cocina, Comedor y Servir (53)
-- Muebles de Dormitorio (54)
-- Muebles de Living (55)
+- **Muebles de Dormitorio (54)**
+- **Muebles de Living (55)**
 - Muebles de Oficina (56)
-- Ropa de Cama y Textiles (57)
+- **Ropa de Cama y Textiles (57)**
 - Soportes, Racks y Stands (58)
 - Muebles de Baño (59)
 - Termos, Tazas y Mugs (60)
-- Contenedores y Organizadores (61)
-- Organización del Hogar (62)
+- Contenedores, Organizadores y Almacenamiento del Hogar (Cajas, Cajones, Canastos, Separadores) (61)
+- Piscinas y Spa (Bombas, Filtros, Cloro, Limpiafondos, Cubiertas) (153)
 
 ### Moda y Accesorios
 - Accesorios de Moda (Lentes, Relojes analógicos, Joyería, Cinturones) (63)
@@ -154,12 +166,12 @@
 - Equipamiento Deportivo Especializado (109)
 
 ### Belleza y Cuidado Personal
-- Perfumes y Fragancias (65)
 - Cuidado de la Piel y Dermocosmética (110)
 - Cuidado del Cabello (111)
 - Cuidado Personal Eléctrico (112)
 - Higiene Personal (113)
 - Maquillaje (114)
+- Perfumes y Fragancias (140)
 
 ### Alimentos y Bebidas
 - Bebidas Alcohólicas (115)
@@ -186,5 +198,6 @@
 - Herramientas Eléctricas (132)
 - Herramientas Manuales (133)
 - Pinturas y Acabados (134)
-- Fontanería y Electricidad (135)
+- Fontanería y Plomería (Tuberías, Grifería, Sifones, Llaves de Paso) (135)
 - Cerraduras y Herrajes (136)
+- Electricidad e Instalaciones (Cables, Enchufes, Interruptores, Tableros Eléctricos) (154)
