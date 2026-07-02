@@ -5,293 +5,160 @@
       "categorias": {
         "0": {
           "nombre": "Categoria Indeterminada",
-          "canonica": false,
-          "tier": 3,
-          "tipo_extraccion": 4
+          "canonica": false
         },
         "400": {
           "nombre": "Error de Parseo",
-          "canonica": false,
-          "tier": 3,
-          "tipo_extraccion": 4
+          "canonica": false
         }
       }
     },
     "1": {
       "nombre": "Tecnología",
       "categorias": {
+        "1": {
+          "nombre": "Accesorios para Computación (Mouses, Teclados, Webcams, Hubs USB)",
+          "canonica": false
+        },
+        "2": {
+          "nombre": "Accesorios para Celulares (Carcasas, Cargadores, Baterías externas)",
+          "canonica": false
+        },
+        "3": {
+          "nombre": "Accesorios para Cámaras (Lentes, Baterías, Bolsos, Trípodes)",
+          "canonica": false
+        },
         "4": {
           "nombre": "Audífonos",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Sony Audífonos"
-          ],
-          "legacy_category_ids": [
-            1248952
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
+        },
+        "5": {
+          "nombre": "Accesorios para Tablets y Notebooks (Fundas, Cargadores, Docks)",
+          "canonica": false
         },
         "6": {
-          "nombre": "Cámaras",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Sony Cámaras",
-            "Sony Cyber-Shot",
-            "Sony Cámaras con lentes intercambiables",
-            "Sony Lentes"
-          ],
-          "legacy_category_ids": [
-            1248961,
-            1248963,
-            1248964,
-            1248965
-          ],
-          "tipo_extraccion": 1
+          "nombre": "Cámaras y Videocámaras",
+          "canonica": true
+        },
+        "7": {
+          "nombre": "Componentes de PC (Tarjetas de video, RAM, Discos Duros/SSD)",
+          "canonica": false
+        },
+        "8": {
+          "nombre": "Consolas de Videojuegos",
+          "canonica": false
         },
         "9": {
           "nombre": "Desktops y All-in-One",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Desktops"
-          ],
-          "legacy_category_ids": [
-            626672
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
+        },
+        "10": {
+          "nombre": "Drones",
+          "canonica": false
         },
         "11": {
           "nombre": "Impresoras y Scanners",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Impresión"
-          ],
-          "legacy_category_ids": [
-            2846866
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
+        },
+        "12": {
+          "nombre": "Media Streaming (Chromecast, Apple TV, Roku)",
+          "canonica": false
         },
         "13": {
           "nombre": "Monitores",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Monitores"
-          ],
-          "legacy_category_ids": [
-            2192801
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "14": {
           "nombre": "Notebooks",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Notebooks"
-          ],
-          "legacy_category_ids": [
-            626673
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "15": {
           "nombre": "Parlantes y Soundbars",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Sony Parlantes Inalámbricos"
-          ],
-          "legacy_category_ids": [
-            768313
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
+        },
+        "16": {
+          "nombre": "Realidad Virtual (VR)",
+          "canonica": false
+        },
+        "17": {
+          "nombre": "Seguridad y Vigilancia Inteligente (Cámaras, Sensores)",
+          "canonica": false
+        },
+        "18": {
+          "nombre": "Smart Home (Asistentes de Voz, Iluminación Inteligente)",
+          "canonica": false
         },
         "19": {
           "nombre": "Smartwatches y Smartbands",
-          "canonica": true,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2,
-          "nota": "Degradada T1→T2 (2026-06-22): solo ? filas Gold"
+          "canonica": true
         },
         "20": {
           "nombre": "Sistemas de Audio y Home Theater",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Sony Sistemas de Audio",
-            "Sony Teatro en Casa",
-            "Sony Reproductores de Blu-ray Disc y DVD"
-          ],
-          "legacy_category_ids": [
-            1248956,
-            1248951,
-            1248950
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "21": {
           "nombre": "Tablets",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Tablets"
-          ],
-          "legacy_category_ids": [
-            626674
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
+        },
+        "22": {
+          "nombre": "E-readers",
+          "canonica": false
         },
         "23": {
           "nombre": "Televisores",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Televisores"
-          ],
-          "legacy_category_ids": [
-            651269
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "24": {
           "nombre": "Celulares y Smartphones",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Celulares"
-          ],
-          "legacy_category_ids": [
-            651270
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
+        },
+        "25": {
+          "nombre": "Impresión 3D (Impresoras 3D, Filamentos, Resinas)",
+          "canonica": false
+        },
+        "26": {
+          "nombre": "Micrófonos",
+          "canonica": false
         },
         "27": {
           "nombre": "Proyectores",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [
-            "Sony Proyectores"
-          ],
-          "legacy_category_ids": [
-            1248949
-          ],
-          "tipo_extraccion": 2,
-          "nota": "Degradada T1→T2 (2026-06-22): solo 4 filas Gold"
+          "canonica": false
         },
-        "101": {
-          "nombre": "Componentes de PC (Tarjetas de video, RAM, Discos Duros/SSD)",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_eval",
-          "tipo_extraccion": 2
-        },
-        "102": {
-          "nombre": "Consolas de Videojuegos",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_eval",
-          "tipo_extraccion": 2
-        },
-        "103": {
-          "nombre": "Drones",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_eval",
-          "tipo_extraccion": 2
-        },
-        "104": {
-          "nombre": "Media Streaming (Chromecast, Apple TV, Roku)",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_eval",
-          "tipo_extraccion": 2
-        },
-        "105": {
-          "nombre": "Realidad Virtual (VR)",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_eval",
-          "tipo_extraccion": 2
-        },
-        "106": {
-          "nombre": "Seguridad y Vigilancia Inteligente (Cámaras, Sensores)",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_eval",
-          "tipo_extraccion": 2
-        },
-        "107": {
-          "nombre": "Smart Home (Asistentes de Voz, Iluminación Inteligente)",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_eval",
-          "tipo_extraccion": 2
-        },
-        "108": {
-          "nombre": "E-readers",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_eval",
-          "tipo_extraccion": 2
-        },
-        "109": {
-          "nombre": "Impresión 3D (Impresoras 3D, Filamentos, Resinas)",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_eval",
-          "tipo_extraccion": 2
-        },
-        "110": {
-          "nombre": "Micrófonos",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_eval",
-          "tipo_extraccion": 2
-        },
-        "111": {
+        "28": {
           "nombre": "Tabletas Gráficas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_eval",
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "112": {
-          "nombre": "Accesorios y Periféricos de Tecnología",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_pending",
-          "volumen_proyectado_regex": 293650,
-          "tipo_extraccion": 4
+        "29": {
+          "nombre": "Accesorios para Smartwatches (Correas, Cargadores)",
+          "canonica": false
+        },
+        "30": {
+          "nombre": "Accesorios para Proyectores (Pantallas, Lentes)",
+          "canonica": false
+        },
+        "31": {
+          "nombre": "Accesorios para Drones (Hélices, Baterías)",
+          "canonica": false
+        },
+        "32": {
+          "nombre": "Accesorios para Televisores (Soportes, Controles Remotos, Cables HDMI)",
+          "canonica": false
+        },
+        "141": {
+          "nombre": "Accesorios para Audífonos (Almohadillas, Cables, Estuches)",
+          "canonica": false
+        },
+        "142": {
+          "nombre": "Accesorios para Impresoras y Scanners (Tóners, Cartuchos, Papel Fotográfico)",
+          "canonica": false
+        },
+        "143": {
+          "nombre": "Accesorios para Parlantes, Soundbars y Sistemas de Audio (Soportes, Cables de Audio, Baterías)",
+          "canonica": false
+        },
+        "145": {
+          "nombre": "Accesorios para Consolas de Videojuegos (Mandos, Auriculares Gaming)",
+          "canonica": false
         }
       }
     },
@@ -300,1126 +167,528 @@
       "categorias": {
         "33": {
           "nombre": "Aire Acondicionado y Climatización",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Aire Acondicionado"
-          ],
-          "legacy_category_ids": [
-            855646
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "34": {
           "nombre": "Aspiradoras y Limpiadores a Vapor",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Aspiradoras"
-          ],
-          "legacy_category_ids": [
-            855647
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "35": {
           "nombre": "Calefonts y Termos Eléctricos",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Calefonts y termos"
-          ],
-          "legacy_category_ids": [
-            1243247
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "36": {
           "nombre": "Campanas y Extractores",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "37": {
           "nombre": "Cocinas, Hornos y Encimeras",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "38": {
           "nombre": "Lavadoras y Secadoras",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Lavado"
-          ],
-          "legacy_category_ids": [
-            713852
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "39": {
           "nombre": "Lavavajillas",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Lavavajillas"
-          ],
-          "legacy_category_ids": [
-            855649
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
+        },
+        "40": {
+          "nombre": "Máquinas de Coser",
+          "canonica": false
         },
         "41": {
           "nombre": "Microondas",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Microondas"
-          ],
-          "legacy_category_ids": [
-            855648
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "42": {
-          "nombre": "Pequeños Electrodomésticos de Cocina (otros)",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 1
+          "nombre": "Pequeños Electrodomésticos de Cocina (Freidoras, Licuadoras, Cafeteras)",
+          "canonica": true
         },
         "43": {
           "nombre": "Planchas",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Planchas"
-          ],
-          "legacy_category_ids": [
-            886476
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
+        },
+        "44": {
+          "nombre": "Purificadores y Humidificadores",
+          "canonica": false
         },
         "45": {
           "nombre": "Refrigeradores, Freezers y Frigobares",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Refrigeración",
-            "Refrigeración Industrial"
-          ],
-          "legacy_category_ids": [
-            713856,
-            1301490
-          ],
-          "tipo_extraccion": 1,
-          "nota": "Incluye Refrigeración Industrial (ex-ID 139). Atributo `uso`: industrial/doméstico."
+          "canonica": true
         },
         "137": {
           "nombre": "Calefactores y Estufas",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [
-            "Estufas"
-          ],
-          "legacy_category_ids": [
-            3640239
-          ],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "138": {
-          "nombre": "Parrillas",
-          "canonica": false,
-          "tier": 1,
-          "legacy_names": [
-            "Parrillas a Gas"
-          ],
-          "legacy_category_ids": [
-            1359433
-          ],
-          "tipo_extraccion": 1,
-          "nota": "Ex-Parrilla a gas. Atributo `tipo_combustible`: gas/eléctrica/carbón. Gold legacy ID 1359433 mapeado con atributo tipo_combustible=gas."
+          "nombre": "Parrilla a gas",
+          "canonica": false
+        },
+        "139": {
+          "nombre": "Refrigeración Industrial",
+          "canonica": false
+        },
+        "146": {
+          "nombre": "Accesorios para Aire Acondicionado (Filtros, Controles Remotos)",
+          "canonica": false
+        },
+        "147": {
+          "nombre": "Accesorios para Aspiradoras y Limpiadores a Vapor (Cepillos, Filtros, Bolsas, Mopas)",
+          "canonica": false
+        },
+        "148": {
+          "nombre": "Accesorios para Cocinas y Hornos (Moldes, Fuentes, Rejillas)",
+          "canonica": false
+        },
+        "149": {
+          "nombre": "Accesorios para Lavadoras y Secadoras (Filtros, Mangueras, Tambores)",
+          "canonica": false
+        },
+        "150": {
+          "nombre": "Accesorios para Microondas (Platos Giratorios, Cobertores)",
+          "canonica": false
+        },
+        "151": {
+          "nombre": "Accesorios para Pequeños Electrodomésticos (Vasos de Licuadora, Accesorios Freidora)",
+          "canonica": false
+        },
+        "152": {
+          "nombre": "Accesorios para Refrigeradores (Bandejas, Cajones, Filtros de Agua)",
+          "canonica": false
         },
         "155": {
           "nombre": "Ventiladores (Techo, Pedestal, Torre, Mesa)",
-          "canonica": false,
-          "tier": 1,
-          "legacy_names": [
-            "Ventilación"
-          ],
-          "legacy_category_ids": [
-            3680631
-          ],
-          "tipo_extraccion": 1
-        },
-        "158": {
-          "nombre": "Cafeteras",
-          "canonica": true,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "159": {
-          "nombre": "Freidoras y Multiollas",
-          "canonica": true,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "160": {
-          "nombre": "Licuadoras",
-          "canonica": true,
-          "tier": 2,
-          "legacy_names": [
-            "Licuadoras"
-          ],
-          "legacy_category_ids": [
-            886475
-          ],
-          "tipo_extraccion": 2
-        },
-        "161": {
-          "nombre": "Batidoras",
-          "canonica": true,
-          "tier": 2,
-          "legacy_names": [
-            "Batidoras"
-          ],
-          "legacy_category_ids": [
-            886472
-          ],
-          "tipo_extraccion": 2
-        },
-        "162": {
-          "nombre": "Sandwicheras y Tostadoras",
-          "canonica": true,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "163": {
-          "nombre": "Hervidores Eléctricos",
-          "canonica": true,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "201": {
-          "nombre": "Máquinas de Coser",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_pending",
-          "mysql_volume_store_1389": "5,042",
-          "volumen_proyectado_regex": 35520,
-          "tipo_extraccion": 2
-        },
-        "202": {
-          "nombre": "Purificadores y Humidificadores",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_pending",
-          "mysql_volume_store_1389": "9,260",
-          "volumen_proyectado_regex": 47879,
-          "tipo_extraccion": 2
-        },
-        "203": {
-          "nombre": "Repuestos y Accesorios de Electrodomésticos",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_decision": "escape_legitimo",
-          "tipo_extraccion": 4
+          "canonica": false
         }
       }
     },
     "3": {
       "nombre": "Hogar",
       "categorias": {
+        "46": {
+          "nombre": "Adornos, Decoración y Elementos Festivos",
+          "canonica": false
+        },
+        "47": {
+          "nombre": "Aseo y Limpieza del Hogar",
+          "canonica": false
+        },
         "48": {
           "nombre": "Camas y Bases de Cama",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "49": {
           "nombre": "Colchones",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 1
+          "canonica": true
+        },
+        "50": {
+          "nombre": "Iluminación (Lámparas, Ampolletas)",
+          "canonica": false
+        },
+        "51": {
+          "nombre": "Jardinería (Maceteros, Herramientas de Jardín, Semillas, Cortacéspedes, Riego)",
+          "canonica": false
+        },
+        "52": {
+          "nombre": "Muebles de Comedor",
+          "canonica": false
+        },
+        "53": {
+          "nombre": "Menaje de Cocina, Comedor y Servir",
+          "canonica": false
         },
         "54": {
           "nombre": "Muebles de Dormitorio",
-          "canonica": true,
-          "tier": 1,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 1
+          "canonica": true
         },
         "55": {
           "nombre": "Muebles de Living",
-          "canonica": true,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2,
-          "nota": "Degradada T1→T2 (2026-06-22): solo 5 filas Gold"
+          "canonica": true
+        },
+        "56": {
+          "nombre": "Muebles de Oficina",
+          "canonica": false
         },
         "57": {
           "nombre": "Ropa de Cama y Textiles",
-          "canonica": true,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2,
-          "nota": "Degradada T1→T2 (2026-06-22): solo 28 filas Gold"
+          "canonica": true
         },
-        "165": {
-          "nombre": "Ampolletas, Focos y Accesorios de Iluminación",
-          "canonica": true,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "301": {
-          "nombre": "Adornos, Decoración y Elementos Festivos",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "302": {
-          "nombre": "Aseo y Limpieza del Hogar",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "303": {
-          "nombre": "Lámparas y Luminarias",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "304": {
-          "nombre": "Jardinería (Maceteros, Herramientas de Jardín, Semillas, Cortacéspedes, Riego)",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "305": {
-          "nombre": "Muebles de Comedor",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "306": {
-          "nombre": "Menaje de Cocina, Comedor y Servir",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "307": {
-          "nombre": "Muebles de Oficina",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "308": {
+        "58": {
           "nombre": "Soportes, Racks y Stands",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 3,
-          "nota": "Soportes, Racks y Stands — rescatada con 48 filas Gold, probar extracción"
+          "canonica": false
         },
-        "309": {
+        "59": {
           "nombre": "Muebles de Baño",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 3,
-          "nota": "Muebles de Baño — rescatada con 155 filas Gold, probar extracción"
+          "canonica": false
         },
-        "310": {
+        "60": {
           "nombre": "Termos, Tazas y Mugs",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "311": {
+        "61": {
           "nombre": "Contenedores, Organizadores y Almacenamiento del Hogar (Cajas, Cajones, Canastos, Separadores)",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "312": {
+        "153": {
           "nombre": "Piscinas y Spa (Bombas, Filtros, Cloro, Limpiafondos, Cubiertas)",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 3,
-          "nota": "Piscinas y Spa — rescatada con 11 filas Gold, probar extracción"
-        },
-        "399": {
-          "nombre": "Otros Hogar",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 4
+          "canonica": false
         }
       }
     },
     "4": {
-      "nombre": "Moda, Accesorios y Calzado",
+      "nombre": "Moda y Accesorios",
       "categorias": {
-        "401": {
-          "nombre": "Polerones y Sudaderas",
-          "canonica": true,
-          "tier": 2,
-          "tipo_extraccion": 2
+        "63": {
+          "nombre": "Accesorios de Moda (Lentes, Relojes analógicos, Joyería, Cinturones)",
+          "canonica": false
         },
-        "402": {
-          "nombre": "Poleras y Camisetas",
-          "canonica": true,
-          "tier": 2,
-          "tipo_extraccion": 2
+        "64": {
+          "nombre": "Calzado de Hombre",
+          "canonica": false
         },
-        "403": {
-          "nombre": "Pantalones y Shorts",
-          "canonica": true,
-          "tier": 2,
-          "tipo_extraccion": 2
+        "65": {
+          "nombre": "Calzado de Mujer",
+          "canonica": false
         },
-        "404": {
-          "nombre": "Chaquetas, Parkas y Abrigos",
-          "canonica": true,
-          "tier": 2,
-          "tipo_extraccion": 2
+        "66": {
+          "nombre": "Ropa de Hombre",
+          "canonica": false
         },
-        "405": {
-          "nombre": "Calzado",
-          "canonica": true,
-          "tier": 2,
-          "tipo_extraccion": 2
+        "67": {
+          "nombre": "Ropa de Mujer",
+          "canonica": false
         },
-        "406": {
-          "nombre": "Ropa Interior, Calcetines y Ropa de Dormir",
-          "canonica": true,
-          "tier": 2,
-          "tipo_extraccion": 2
+        "68": {
+          "nombre": "Maletas, Carteras y Bolsos de Viaje",
+          "canonica": false
         },
-        "407": {
-          "nombre": "Vestidos, Faldas y Ropa Formal",
-          "canonica": true,
-          "tier": 2,
-          "tipo_extraccion": 2
-        },
-        "408": {
-          "nombre": "Trajes de Baño y Ropa de Playa",
-          "canonica": true,
-          "tier": 2,
-          "tipo_extraccion": 2
-        },
-        "409": {
-          "nombre": "Bolsos, Mochilas, Carteras y Equipaje",
-          "canonica": true,
-          "tier": 2,
-          "tipo_extraccion": 2
-        },
-        "410": {
-          "nombre": "Accesorios de Moda",
-          "canonica": true,
-          "tier": 2,
-          "tipo_extraccion": 2
-        },
-        "499": {
-          "nombre": "Otros Moda",
-          "canonica": false,
-          "tipo_extraccion": 4,
-          "tier": 3
+        "69": {
+          "nombre": "Mochilas",
+          "canonica": false
         }
       }
     },
     "5": {
       "nombre": "Bebés y Maternidad",
       "categorias": {
-        "501": {
+        "70": {
           "nombre": "Calzado Infantil",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=382, prec=76%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "502": {
+        "71": {
           "nombre": "Coches, Sillas de Auto y Paseo Infantil",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=259, prec=52%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "503": {
+        "72": {
           "nombre": "Dormitorio del Bebé",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=56, prec=11%)",
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "504": {
+        "73": {
           "nombre": "Higiene y Cuidado del Bebé",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=191, prec=38%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "505": {
+        "74": {
           "nombre": "Juguetes y Entretención para Bebés",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=151, prec=30%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "506": {
+        "75": {
           "nombre": "Lactancia y Alimentación del Bebé",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_pending",
-          "volumen_proyectado_regex": 58730,
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "507": {
+        "76": {
           "nombre": "Ropa de Bebé",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=428, prec=86%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "508": {
+        "77": {
           "nombre": "Seguridad para Bebés en el Hogar",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=144, prec=29%)",
-          "tipo_extraccion": 3
-        },
-        "599": {
-          "nombre": "Otros Bebés y Maternidad",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 4
+          "canonica": false
         }
       }
     },
     "6": {
       "nombre": "Niños y Juguetería",
       "categorias": {
-        "601": {
+        "78": {
           "nombre": "Disfraces",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=140, prec=28%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "602": {
+        "79": {
           "nombre": "Juguetes de Exterior",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "603": {
+        "80": {
           "nombre": "Muñecas y Figuras de Acción",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "604": {
+        "81": {
           "nombre": "Ropa de Niña",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "605": {
+        "82": {
           "nombre": "Ropa de Niño",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "606": {
+        "83": {
+          "nombre": "Uniformes Escolares",
+          "canonica": false
+        },
+        "84": {
           "nombre": "Vehículos y Pistas de Juguete",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=393, prec=79%)",
-          "tipo_extraccion": 3
-        },
-        "699": {
-          "nombre": "Otros Niños y Juguetería",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 4
+          "canonica": false
         }
       }
     },
     "7": {
       "nombre": "Automotriz",
       "categorias": {
-        "701": {
+        "85": {
           "nombre": "Accesorios para Vehículos",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "702": {
+        "86": {
           "nombre": "Aceites y Fluidos para Vehículos",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "703": {
+        "87": {
           "nombre": "Audio y Electrónica para Auto",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "704": {
+        "88": {
           "nombre": "Motociclismo",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "705": {
+        "89": {
           "nombre": "Neumáticos y Llantas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "706": {
+        "90": {
           "nombre": "Repuestos de Vehículos",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "799": {
-          "nombre": "Otros Automotriz",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 4
+          "canonica": false
         }
       }
     },
     "8": {
       "nombre": "Mascotas",
       "categorias": {
-        "801": {
+        "91": {
           "nombre": "Alimento para Mascotas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=359, prec=72%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "802": {
+        "92": {
           "nombre": "Camas y Casas para Mascotas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=332, prec=66%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "803": {
+        "93": {
           "nombre": "Higiene y Cuidado de Mascotas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=123, prec=25%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "804": {
+        "94": {
           "nombre": "Juguetes y Accesorios para Mascotas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=247, prec=49%)",
-          "tipo_extraccion": 3
-        },
-        "899": {
-          "nombre": "Otros Mascotas",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 4
+          "canonica": false
         }
       }
     },
     "9": {
       "nombre": "Deportes y Salud",
       "categorias": {
-        "901": {
+        "95": {
           "nombre": "Bicicletas y Ciclismo",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=238, prec=48%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "902": {
+        "96": {
           "nombre": "Medicamentos y Farmacia",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=39, prec=8%)",
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "903": {
+        "97": {
           "nombre": "Fitness y Musculación",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=183, prec=37%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "904": {
+        "98": {
+          "nombre": "Máquinas de Ejercicio",
+          "canonica": false
+        },
+        "99": {
           "nombre": "Salud y Equipamiento Médico",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=65, prec=13%)",
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "905": {
+        "100": {
           "nombre": "Suplementos Alimenticios y Vitaminas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=336, prec=67%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "906": {
+        "101": {
           "nombre": "Camping y Outdoor",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=342, prec=68%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "907": {
-          "nombre": "Deportes Acuáticos, Nieve y Extremos",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=136, prec=27%)",
-          "tipo_extraccion": 3
+        "102": {
+          "nombre": "Deportes Acuáticos",
+          "canonica": false
         },
-        "908": {
+        "103": {
+          "nombre": "Deportes de Nieve",
+          "canonica": false
+        },
+        "104": {
+          "nombre": "Deportes de Rolling",
+          "canonica": false
+        },
+        "105": {
           "nombre": "Deportes Colectivos",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=249, prec=50%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "999": {
-          "nombre": "Otros Deportes y Salud",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 4
+        "106": {
+          "nombre": "Armas y Equipamiento de Caza",
+          "canonica": false
+        },
+        "107": {
+          "nombre": "Primeros Auxilios",
+          "canonica": false
+        },
+        "108": {
+          "nombre": "Deportes de Aventura y Montaña",
+          "canonica": false
+        },
+        "109": {
+          "nombre": "Equipamiento Deportivo Especializado",
+          "canonica": false
         }
       }
     },
     "10": {
       "nombre": "Belleza y Cuidado Personal",
       "categorias": {
-        "1001": {
-          "nombre": "Cuidado de la Piel y Dermocosmética",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=360, prec=72%)",
-          "tipo_extraccion": 3
-        },
-        "1002": {
-          "nombre": "Cuidado del Cabello",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=401, prec=80%)",
-          "tipo_extraccion": 3
-        },
-        "1003": {
-          "nombre": "Cuidado Personal Eléctrico",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=128, prec=26%)",
-          "tipo_extraccion": 3
-        },
-        "1004": {
-          "nombre": "Higiene Personal",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_pending",
-          "volumen_proyectado_regex": 128313,
-          "tipo_extraccion": 2
-        },
-        "1005": {
-          "nombre": "Maquillaje",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=175, prec=35%)",
-          "tipo_extraccion": 3
-        },
-        "1006": {
+        "140": {
           "nombre": "Perfumes y Fragancias",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=386, prec=77%)",
-          "tipo_extraccion": 3
+          "canonica": false
         },
-        "1099": {
-          "nombre": "Otros Belleza y Cuidado Personal",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 4
+        "110": {
+          "nombre": "Cuidado de la Piel y Dermocosmética",
+          "canonica": false
+        },
+        "111": {
+          "nombre": "Cuidado del Cabello",
+          "canonica": false
+        },
+        "112": {
+          "nombre": "Cuidado Personal Eléctrico",
+          "canonica": false
+        },
+        "113": {
+          "nombre": "Higiene Personal",
+          "canonica": false
+        },
+        "114": {
+          "nombre": "Maquillaje",
+          "canonica": false
         }
       }
     },
     "11": {
       "nombre": "Alimentos y Bebidas",
       "categorias": {
-        "1101": {
+        "115": {
           "nombre": "Bebidas Alcohólicas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=497, prec=99%)",
-          "tipo_extraccion": 3,
-          "extraccion_metodo": "cosine"
+          "canonica": false
         },
-        "1102": {
-          "nombre": "Despensa, Granos, Conservas y Condimentos",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=212, prec=42%)",
-          "tipo_extraccion": 3,
-          "extraccion_metodo": "bigrams+gemini"
+        "116": {
+          "nombre": "Despensa y Alimentos No Perecibles",
+          "canonica": false
         },
-        "1103": {
+        "117": {
           "nombre": "Bebidas No Alcohólicas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_from": 2,
-          "degraded_reason": "vol < 100: blocking vectorial (seeds=48, prec=10%)",
-          "tipo_extraccion": 3,
-          "extraccion_metodo": "cosine+filtro"
+          "canonica": false
         },
-        "1105": {
+        "118": {
+          "nombre": "Panadería y Pastelería",
+          "canonica": false
+        },
+        "119": {
           "nombre": "Congelados",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_from": 2,
-          "degraded_reason": "vol < 100: blocking vectorial (seeds=49, prec=10%)",
-          "tipo_extraccion": 3,
-          "extraccion_metodo": "keyword_explicita"
+          "canonica": false
         },
-        "1108": {
-          "nombre": "Lácteos y Derivados",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=270, prec=54%)",
-          "tipo_extraccion": 3,
-          "extraccion_metodo": "cosine"
+        "120": {
+          "nombre": "Carnes y Pescados",
+          "canonica": false
         },
-        "1109": {
-          "nombre": "Dulces, Snacks y Galletas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_reason": "rescatado: blocking vectorial (seeds=286, prec=57%)",
-          "tipo_extraccion": 3,
-          "extraccion_metodo": "bigrams+gemini"
+        "121": {
+          "nombre": "Frutas y Verduras",
+          "canonica": false
         },
-        "1110": {
-          "nombre": "Embutidos y Cecinas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "degraded_from": 2,
-          "degraded_reason": "vol < 100: blocking vectorial (seeds=12, prec=2%)",
-          "tipo_extraccion": 3,
-          "extraccion_metodo": "bigrams+gemini"
+        "122": {
+          "nombre": "Lácteos, Quesos y Huevos",
+          "canonica": false
         },
-        "1199": {
-          "nombre": "ESCAPE — Otros Alimentos (absorbe Frutas, Verduras, Carnes frescas, Pan fresco)",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 4
+        "123": {
+          "nombre": "Dulces y Snacks",
+          "canonica": false
+        },
+        "124": {
+          "nombre": "Embutidos",
+          "canonica": false
         }
       }
     },
     "12": {
       "nombre": "Librería y Pasatiempos",
       "categorias": {
-        "1201": {
+        "125": {
           "nombre": "Instrumentos Musicales",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2,
-          "tier_source": "regex_directo_libreria",
-          "volumen_proyectado_regex": 38256
+          "canonica": false
         },
-        "1202": {
+        "126": {
           "nombre": "Juegos de Mesa y Puzzles",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2,
-          "tier_source": "regex_directo_libreria",
-          "volumen_proyectado_regex": 70545
+          "canonica": false
         },
-        "1203": {
+        "127": {
           "nombre": "Libros, Papelería y Artículos de Oficina",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2,
-          "tier_source": "regex_directo_libreria",
-          "volumen_proyectado_regex": 52017
+          "canonica": false
         },
-        "1204": {
+        "128": {
           "nombre": "Instrumentos Ópticos (Telescopios, Microscopios, Binoculares)",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2,
-          "tier_source": "regex_directo_libreria",
-          "volumen_proyectado_regex": 74966
+          "canonica": false
         },
-        "1205": {
+        "129": {
           "nombre": "Accesorios para Instrumentos Musicales",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2,
-          "tier_source": "regex_directo_libreria",
-          "volumen_proyectado_regex": 25561
-        },
-        "1299": {
-          "nombre": "Otros Librería y Pasatiempos",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 4
+          "canonica": false
         }
       }
     },
     "13": {
       "nombre": "Ferretería y Construcción",
       "categorias": {
-        "176": {
-          "nombre": "Carpintería y Madera",
-          "canonica": true,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+        "130": {
+          "nombre": "Ferretería General",
+          "canonica": false
         },
-        "1301": {
-          "nombre": "Fijaciones, Adhesivos y Consumibles",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "1302": {
+        "131": {
           "nombre": "Materiales de Construcción",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "1303": {
+        "132": {
           "nombre": "Herramientas Eléctricas",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "1304": {
+        "133": {
           "nombre": "Herramientas Manuales",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "1305": {
+        "134": {
           "nombre": "Pinturas y Acabados",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "1306": {
+        "135": {
           "nombre": "Fontanería y Plomería (Tuberías, Grifería, Sifones, Llaves de Paso)",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tier_source": "regex-directo_regex_pending",
-          "volumen_proyectado_regex": 44560,
-          "tipo_extraccion": 2
+          "canonica": false
         },
-        "1307": {
+        "136": {
+          "nombre": "Cerraduras y Herrajes",
+          "canonica": false
+        },
+        "154": {
           "nombre": "Electricidad e Instalaciones (Cables, Enchufes, Interruptores, Tableros Eléctricos)",
-          "canonica": false,
-          "tier": 2,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 2
-        },
-        "1399": {
-          "nombre": "Otros Ferretería y Construcción",
-          "canonica": false,
-          "tier": 3,
-          "legacy_names": [],
-          "legacy_category_ids": [],
-          "tipo_extraccion": 4
+          "canonica": false
         }
       }
     }
-  },
-  "_nota": "v4.1 — Agregados legacy_names y legacy_category_ids para mapeo 1:1 Capa A. Categorías paraguas (Audio, Computación, Electrodomésticos, Dormitorio, Wearables, Cocina) NO tienen legacy_names: requieren split por atributo en Capa B. Generado por build_rc_tree_v4_legacy_names.py el 2026-06-16."
+  }
 }
